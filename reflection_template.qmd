@@ -54,6 +54,7 @@ teacher_evals <- read_csv(here::here("week3", "labs", "data", "teacher_evals.csv
 **WD-2: I can select necessary columns from a dataset.**
 
 -   Example selecting specified columns
+-   *You should have returns to break up the long lines in your code! Anything over 80 characters should have a line break!*
 
 ```{r}
 #| label: wd-2-ex-1
@@ -87,13 +88,14 @@ suspect_info <- gym_people_names %>%
 ```
 
 -   Example selecting columns based on logical values (e.g., `starts_with()`, `ends_with()`, `contains()`, `where()`)
+-   *Specifically, I would love to see you using named argments and the correct function syntax for the if_any() function:*
 
 ```{r}
 #| label: wd-2-ex-3
 
 # lab-3-question-8
 teacher_evals_clean %>% 
-  filter(if_any(everything(), is.na)) %>% 
+  filter(if_any(.cols = everything(), .fns = ~ is.na(.x)) %>% 
   summarize(
     teacher_id = unique(teacher_id),
     course_id = unique(course_id)
@@ -105,6 +107,7 @@ names(which(colSums(is.na(teacher_evals_clean)) > 0))
 **WD-3: I can filter rows from a dataframe for a *variety* of data types (e.g., numeric, integer, character, factor, date).**
 
 -   Numeric Example 1
+-   *You should only call the filter() function once!*
 
 ```{r}
 #| label: wd-3-numeric-ex-1
@@ -160,6 +163,7 @@ ca_childcare
 ```
 
 -   Character Example 2 (example must use functions from **stringr**)
+-   *Is there a way you can get the max \*and\* min in \*\*one\*\* pipeline?*
 
 ```{r}
 #| label: wd-3-string
@@ -553,6 +557,7 @@ The following assignments satisfy the above criteria:
 **R-2: I can write well documented and tidy code.**
 
 -   Example of **ggplot2** plotting
+-   *Technically, the percent() function has been superseded. Meaning, there are other functions you should use instead. Specifically, the label_percent() function has replaced this function.*
 
 ```{r}
 #| label: r-2-1
@@ -1344,6 +1349,8 @@ price_summary |>
 
 -   Example 1
 
+-   *This works, but did you need to make a contingency table? Could you have input these vectors directly into the chisq.test() function?*
+
 ```{r}
 #| label: dsm-2-1
 
@@ -1375,11 +1382,15 @@ summary(species_mod)
 
 <!-- How did you revise your thinking throughout the course? How did you revise your thinking on the code examples you have provided in your portfolio? -->
 
+For every single submission, I have revised my code and submission based on the feedback that has been provided. I use this feedback in all my future code too.
+
 <!-- For the revisions included in your Portfolio, to help me understand the nature of your revisions, please denote somehow the feedback I provided you (e.g., boldface, italics, colored text) before your revisions. -->
 
 ## Extending My Thinking
 
 <!-- How did you extended your thinking throughout the course? How did you extend your thinking on the code examples you have provided in your portfolio? -->
+
+I used stack overflow and documentation to help me in answering some questions. I feel like this helped me more than ChatGPT because in CS there are always multiple ways to the same problem, and doing this showed me tons of different functions and ways that I could get to the same answer. Throughout my labs and challenges, I attached links to resources that I used to get to my answer. I used a lot of these same functions again in later labs/projects where I recalled them and thought they would be correct to use.
 
 ## Peer Support & Collaboration
 
