@@ -6,16 +6,22 @@ editor: visual
 
 **Answer each of the following questions with *one sentence* including a brief explanation.**
 
-1. Finish the sentence with another student’s name: "If [Name of Student] doesn’t earn an A, then nobody should, because..." Explain your choice and your reasoning.
+1.  Finish the sentence with another student’s name: "If \[Name of Student\] doesn’t earn an A, then nobody should, because..." Explain your choice and your reasoning.
 
+    If Karthik Balaji doesn’t earn an A, then nobody should, because he very clearly knew his stuff throughout the entirety of the course and was always really helpful in explaining concepts to me as my table partner. He definitely was a very useful resource when in class.
 
-2. What was the most difficult part of the class for you? List a general topic, a specific problem, a kind of work we did, etc. and explain why.
+2.  What was the most difficult part of the class for you? List a general topic, a specific problem, a kind of work we did, etc. and explain why.
 
+    The most difficult part of STAT 331 was probably understanding pivots, because it was super hard for me to visualize how they would work with the larger sets of data that we were working with in our labs and challenges.
 
-3. What was the easiest part of the class for you? Explain why.
+3.  What was the easiest part of the class for you? Explain why.
 
+    The easiest part of STAT 331 was understanding what different functions do and when to use them, because the majority of them are extremely similar to SQL, which I knew before. I was able to use that knowledge when writing up my code, as the way you write code in R and SQL is surprisingly similar.
 
-4. What part of the class surprised or interested you the most? Explain why.
+4.  What part of the class surprised or interested you the most? Explain why.
 
+    I think the most surprising part of STAT 331 was learning how many different functions there are in R. There's a function for almost everything you could imagine - all you have to do is search for it on google.
 
-5. Give one piece of advice to a student just beginning a quarter of STAT 331 that will help them be successful in learning.
+5.  Give one piece of advice to a student just beginning a quarter of STAT 331 that will help them be successful in learning.
+
+    One piece of advice I would give to a new student beginning the course is to really take your time to understand the functions we are taught in class or that you find online rather than just using them. The documentation online has tons of useful information, and can greatly help reducing the errors you get.

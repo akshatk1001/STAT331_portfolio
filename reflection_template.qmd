@@ -1567,7 +1567,7 @@ summary(species_mod)
 
 <!-- How did you revise your thinking throughout the course? How did you revise your thinking on the code examples you have provided in your portfolio? -->
 
-For every single submission, I have revised my code and submission based on the feedback that has been provided. I use this feedback in all my future code too.
+For the majority of my submissions, I have revised my code and submission based on the feedback that has been provided. I try to remember to use this feedback in all my future code too.
 
 <!-- For the revisions included in your Portfolio, to help me understand the nature of your revisions, please denote somehow the feedback I provided you (e.g., boldface, italics, colored text) before your revisions. -->
 
